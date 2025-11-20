@@ -75,11 +75,13 @@ The data structure of a delivery-vs-payment (DvP) transaction is a JSON document
 {
   "id": 123,
   "timestamp": 17663363400,
-  "seller": "Ching Chong Extractions",
-  "buyer": "Lays Chips",
-  "product": "Indium", 
-  "units": 40000,
-  "amount": 90000000,
+  "data": {
+    "seller": "Ching Chong Extractions",
+    "buyer": "Lays Chips",
+    "product": "Indium", 
+    "units": 40000,
+    "price": 90000000,
+  }
 }
 ```
 
