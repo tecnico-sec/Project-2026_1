@@ -12,7 +12,7 @@ The project is contextualized in one of a set of business scenarios: a notes app
 
 The project is organized in 3 parts: secure documents, infrastructure, and security challenge.
 
-The first part - _secure documents_ - will require the design and implementation of a custom cryptographic library.
+The first part - _secure documents_ - will require the design and implementation of a custom library to protect documents.
 Each business scenario has a core document format that lacks protection.
 Each team will have to use adequate cryptography to protect the document.
 We recommend that you get teacher feedback before the implementation begins.
@@ -49,7 +49,8 @@ Each stage is described in the following subsections.
 
 # 1. Design secure document format
 
-After having a scenario assigned, your team should design and implement a library to provide cryptographic security to the document format, according to the scenario instructions.
+After having a scenario assigned, your team should design and implement a library to provide cryptographic security to the document format used in that scenario, according to the scenario instructions. 
+Your library must not implement cryptographic algorithms, something that is not recommended for non-experts, but to use a cryptographic library with good reputation.
 
 It is highly recommended that the design is presented to the lab teacher before implementation begins.
 
@@ -61,7 +62,7 @@ The library should provide, at least, the following operations:
 
 # 2. Implement secure document format
 
-The choice of programming language and cryptographic library  is up to the team.
+The choice of programming language and cryptographic library to use in your library is up to the team.
 
 Plan a gradual implementation of the solution.
 Attend the lab sessions to present your ongoing development and receive early feedback from the teacher.
