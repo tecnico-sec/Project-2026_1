@@ -20,6 +20,8 @@ _Congratulations! You have been hired by one of the following companies._
 Each company has its business context and, more importantly, a document format that is pivotal for their business.  
 Later in the project, a security challenge will be revealed and your team will have to respond to it with a suitable solution.
 
+**Note: each group should pick and handle just one of the security challenges**
+
 ----
 
 # Scenarios
