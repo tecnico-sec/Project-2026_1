@@ -8,7 +8,7 @@ This document describes the organization of the project for the Network and Comp
 
 You will work in a team of 3 members.
 
-The project is contextualized in one of a set of business scenarios: a notes app, a ticket selling app, a vehicle system, and a messaging app.
+The project is contextualized in one of a set of [business scenarios](project_scenarios.md).
 
 The project is organized in 3 parts: secure documents, infrastructure, and security challenge.
 
